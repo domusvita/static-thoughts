@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Thoughts</title>
+    <meta
+      name="description"
+      content="Minimal black-and-white notes with a bright accent."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <p class="eyebrow">STATIC THOUGHTS</p>
+      <h1>Quiet ideas, sharp edges.</h1>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          A minimal space for notes, essays, and experiments. Built for reading,
+          with no clutter and one electric accent.
+        </p>
+      </section>
+
+      <section class="posts" aria-label="Recent posts">
+        <article class="post-card">
+          <h2><a href="#">The Discipline of Simplicity</a></h2>
+          <p>
+            Why reduction is not subtraction, and what a page gains when you
+            remove almost everything.
+          </p>
+        </article>
+
+        <article class="post-card">
+          <h2><a href="#">On Writing in Public</a></h2>
+          <p>
+            Notes on shipping unfinished ideas and letting clear language do the
+            heavy lifting.
+          </p>
+        </article>
+
+        <article class="post-card">
+          <h2><a href="#">Signal Over Style</a></h2>
+          <p>
+            A short guide to contrast, rhythm, and why fewer visual decisions can
+            produce stronger identity.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Static Thoughts</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
