@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #fafaf8;
+  color: #222;
+  line-height: 1.7;
+}
+
+header {
+  padding: 3rem 1.5rem 2rem;
+  border-bottom: 1px solid #e0ddd8;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+.tagline {
+  margin: 0;
+  color: #666;
+  font-style: italic;
+}
+
+main {
+  max-width: 680px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.posts article {
+  margin-bottom: 3rem;
+}
+
+.posts h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.4rem;
+}
+
+.posts time {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: #888;
+}
+
+footer {
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #e0ddd8;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #999;
+}
